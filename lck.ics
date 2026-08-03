@@ -834,4 +834,68 @@ DESCRIPTION:Match Reminder
 END:VALARM
 END:VEVENT
 
+
+; --------------------------------------------------------------------------------
+;                              Road to MSI
+; --------------------------------------------------------------------------------
+
+
+BEGIN:VEVENT
+UID:hle-lck-20250613-gen@00ccff
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=Asia/Seoul:20250613T170000
+DTEND;TZID=Asia/Seoul:20250613T200000
+SUMMARY:[LCK] GEN vs HLE
+DESCRIPTION:Tournament: LCK 2025\nStage: Road to MSI\nMatch: GEN vs HLE\nFormat: BO5
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Match Reminder
+END:VALARM
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:t1-lck-20250614-kt@00ccff
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=Asia/Seoul:20250614T150000
+DTEND;TZID=Asia/Seoul:20250614T180000
+SUMMARY:[LCK] T1 vs KT
+DESCRIPTION:Tournament: LCK 2025\nStage: Road to MSI\nMatch: T1 vs KT\nFormat: BO5
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Match Reminder
+END:VALARM
+END:VEVENT
+
+
+BEGIN:VEVENT
+UID:lck-20250615-hle-t1@00ccff
+DTSTAMP:20260803T000000Z
+DTSTART;TZID=Asia/Seoul:20250615T150000
+DTEND;TZID=Asia/Seoul:20250615T180000
+SUMMARY:[LCK] HLE vs T1
+DESCRIPTION:Tournament: LCK 2025\nStage: Road to MSI\nMatch: HLE vs T1\nFormat: BO5
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Match Reminder
+END:VALARM
+END:VEVENT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 END:VCALENDAR
